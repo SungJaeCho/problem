@@ -27,9 +27,13 @@ public class BinarySearchTree {
 	public TreeNode searchBST(char x) {
 		TreeNode p = root;
 		while(p != null) {
-			if(x < p.data) p = p.left;
-			else if(x > p.data) p = p.right;
-			else return p;
+			if(x < p.data) {
+				p = p.left;
+			} else if(x > p.data) {
+				p = p.right;
+			} else {
+				return p;
+			}
 		}
 		return p;
 	}
