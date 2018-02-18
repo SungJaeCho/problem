@@ -10,28 +10,29 @@ public class Solution {
 	
 	public int reverse(int x) {
 		
-		/*
-		String res = "";
-		int res_int = 0;
-		String tempRes = null ;
 		
-		if(x == 0 ) {
-			return 0;
-		}
+//		String res = "";
+//		int res_int = 0;
+//		String tempRes = null ;
+//		if(x == 0) {
+//			return 0;
+//		}
+//			if(x < 0) {
+//				tempRes = String.valueOf(x);
+//				tempRes = tempRes.replace("-", "");
+//				res = "-";
+//			}else {
+//				tempRes = String.valueOf(x);
+//			}
+//			res = res + new StringBuffer(tempRes).reverse().toString();
+//		try {
+//			res_int = Integer.parseInt(res);
+//		}catch(NumberFormatException e) {
+//			e.printStackTrace();
+//			return 0;
+//		}
+//		return res_int;
 		
-		if(x < 0) {
-			tempRes = String.valueOf(x);
-			tempRes = tempRes.replace("-", "");
-			res = "-";
-		}else {
-			tempRes = String.valueOf(x);
-		}
-		res = res + new StringBuffer(tempRes).reverse().toString();
-		res_int = Integer.parseInt(res);
-		
-		
-		return res_int;
-		*/
 		
 		long answer = 0; // return값에서 Integer값이랑 비교해야 하기때문에 long형으로 생성
 		
@@ -45,7 +46,7 @@ public class Solution {
 	}
 	
 	public static void main(String[] args) {
-		int x = -230;
+		int x = 1534236469;
 		Solution sol = new Solution();
 		x = sol.reverse(x);
 		
