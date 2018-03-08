@@ -1,5 +1,10 @@
 package palindromeNumber;
 
+/**
+ * @author Administrator
+ * 회문 뒤집어도 같은 숫자 확인
+ *
+ */
 public class PalindromeSolution {
 
 	public boolean isPalindrome(int x) {
