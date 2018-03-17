@@ -4,7 +4,8 @@ public class RecursiveCall {
 
 	public static void main(String[] args) {
 //		System.out.println("Sum = "+recursiveCallPlus(0));
-		System.out.println("Minus = "+recursiveCallMinus(10));
+//		System.out.println("Minus = "+recursiveCallMinus(10));
+		System.out.println("Minus = "+recursiveCallTrue());
 	}
 //	재귀호출 (1~10까지 합계)
 	static int recursiveCallPlus(int sum) {
